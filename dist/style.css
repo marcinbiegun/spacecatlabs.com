@@ -43,6 +43,8 @@ body {
 h1, h2, h3 {
   font-weight: 200;
   margin: 0;
+  z-index: 100;
+  position: relative;
 }
 
 h1 {
@@ -81,7 +83,6 @@ h3 {
 	background: url(stars-1.png) repeat 0% 0%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 21;
 	-webkit-animation-name: stars-move;
 	-webkit-animation-duration: 8s;
 	-webkit-animation-timing-function: linear;
@@ -92,7 +93,6 @@ h3 {
 	background: url(stars-2.png) repeat 0% 0%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 22;
 	-webkit-animation-name: stars-move;
 	-webkit-animation-duration: 4s;
 	-webkit-animation-timing-function: linear;
@@ -103,7 +103,6 @@ h3 {
 	background: url(stars-3.png) repeat 0% 0%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 23;
 	-webkit-animation-name: stars-move;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-timing-function: linear;
