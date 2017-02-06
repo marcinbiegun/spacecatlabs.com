@@ -3,9 +3,8 @@
   <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <title>Space Cat Labs</title>
+  <meta name="description" content="Web applications consultancy.">
   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 <body>
   <div id="container">
@@ -15,13 +14,89 @@
   </div>
   <div id="cats">
   </div>
-  <div id="stars-1"></div>
-  <div id="stars-2"></div>
-  <div id="stars-3"></div>
 </body>
+
 <script>
 var a = "hell"; var b = "o"; var c = "@spacecat"; var d = "labs.com";
 document.getElementById("949c7d").innerHTML = a + b + c + d;
 </script>
-</html>
 
+<style media="screen" type="text/css">
+/* latin-ext */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url(https://fonts.gstatic.com/s/bitter/v10/VyzH0eNzfhxMjuJ3chtK7H-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url(https://fonts.gstatic.com/s/bitter/v10/HEpP8tJXlWaYHimsnXgfCOvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+  font-family: 'Bitter', serif;
+  margin: 0;
+  padding: 0;
+  background: #000 url('bg.jpg') no-repeat center center fixed; 
+  background-position: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#cats {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 840px;
+  height: 595px;
+  background-size: 840px;
+  background-image: url('catonauts_transparent.png');
+  background-repeat: no-repeat;
+  background-position: 100% -100%;
+}
+
+h1, h2, h3 {
+  font-weight: 200;
+  margin: 0;
+  z-index: 100;
+  position: relative;
+}
+
+h1 {
+  padding-left: 5vw;
+  padding-top: 5vw;
+  font-size: 6vw;
+  color: #fff;
+}
+
+h2 {
+  padding-top: 0vw;
+  padding-left: 15.5vw;
+  font-size: 2vw;
+  color: #fff;
+  position: relative;
+  top: -1vw;
+}
+
+h3 {
+  padding-top: 2vw;
+  padding-left: 5vw;
+  font-size: 2vw;
+  color: #bbb;
+}
+</style>
+
+</html>
