@@ -78,14 +78,14 @@ h1, h2, h3 {
 h1 {
   padding-left: 5vw;
   padding-top: 5vw;
-  font-size: 6vw;
+  font-size: calc(20px + 5vw);
   color: #fff;
 }
 
 h2 {
   padding-top: 0vw;
   padding-left: 15.5vw;
-  font-size: 2vw;
+  font-size: calc(12px + 2vw);
   color: #fff;
   position: relative;
   top: -1vw;
@@ -94,8 +94,24 @@ h2 {
 h3 {
   padding-top: 2vw;
   padding-left: 5vw;
-  font-size: 2vw;
+  font-size: calc(12px + 2vw);
   color: #bbb;
+}
+
+@media (max-height: 800px) {
+  #cats { height: 550px; }
+}
+
+@media (max-height: 700px) {
+  #cats { height: 500px; }
+}
+
+@media (max-height: 600px) {
+  #cats { height: 450px; }
+}
+
+@media (max-height: 500px) {
+  #cats { height: 400px; }
 }
 </style>
 
